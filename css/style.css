@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.headerSection{
+    width:1920px ;
+}
+.header{
+    padding: 15px 390px 16px 390px;
+    background-color: #282828;
+    display: flex;
+    gap: 562px;
+    align-items: center;
+}
+.header p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+.headerSocialIcon{
+    display: flex;
+    gap: 19px;
+    color: #ffffff;
+}
+.headerSocialIcon a{
+    color: #ffffff;
+}
+.headerontact{
+    display: flex;
+    gap: 27px;
+}
+.mail{
+    padding-right: 27px;
+    border-right: 1px solid #5C6A92;               ;
+}
+.conatct{
+    width: 236;
+}
+.navbar{
+    padding: 27px 390px ;
+    background-color: #F40404;
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    gap: 47px;
+    margin-left:275px ;
+}
+.navbar ul li a{
+     font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+button{
+    margin-left: 163px;
+    padding: 13px 32px 14px 31px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.bannerSection{
+    background-image:url(../images/Group\ 5.jpg) ;
+    padding: 275px 0;
+}
+.bannerSection h1{
+     font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: #ffffff;
+    padding-left: 405px;
+    padding-right: 673px;
+}
+.bannerSection a{
+     margin-left: 405px;
+     padding: 13px 41px;
+     background-color: #F40404;
+     color: #ffffff;
+ font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top:31px ;
+}
+.ourServicesSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourservice1{
+    width:960px ;
+    
+
+}
+.ourservice a{
+     margin-left: 116px;
+     padding: 13px 41px;
+     background-color: #F40404;
+     color: #ffffff;
+ font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top:30px ;
+   
+}
+.ourservice{
+     width:960px ;
+}
+.ourservice h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #ffffff;
+    padding-left: 116px; 
+}
+.first{
+    background: url(../images/Services1.png);
+    padding: 147px 0 139px 0;
+}
+.second{
+    background: url(../images/unsplash_Wiu3w-99tNg.png);
+       padding: 147px 0 139px 0;
+}
+.third{
+    background: url(../images/unsplash_0aJOTBQfEFE.png);
+       padding: 147px 0 139px 0;
+}
